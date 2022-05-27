@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    font-size: 2.2rem;
+    color: black;
+    width: 200px;
+    background-color: gray;
+    padding: 10px 0;
+}
+
+.content {
+    margin: 20px 20px;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.delete {
+    background-color: #C71585;
+    color: white;
+    font-size: 1rem;
+    padding: 10px;
+    border: none;
+    text-align: center;
+    width: 80px;
+    margin-left: 100px;
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+.popup {
+    position: fixed;
+    width: 35%;
+    left: 50%;
+    top: 40%;
+    text-align: center;
+    transform: translate(-50%,-50%);
+    background-color: white;
+    box-shadow: 1px 1px 1px 1px #888888;
+    border-radius: 2px;
+    padding: 40px;
+    display: block;
+    display: none;
+}
+
+.popup-title {
+    color: black;
+    font-size: 1.4rem;
+    padding: 10px;
+}
+
+.popup-cancel {
+    width: 70px;
+    height: 30px;
+    font-size: 1rem;
+    color: #C71585;
+    background-color: white;
+    border: 1px solid #C71585;
+    cursor: pointer;
+    border-radius: 4px;
+    margin: 10px;
+}
+
+.popup-confirm {
+    width: 70px;
+    height: 30px;
+    font-size: 1rem;
+    color: white;
+    background-color: #C71585;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    margin: 10px;
+}
+
+.show{
+    display: block;
+    background-color: grey;
+}
+
+.show .popup{
+    display: block;
+}
